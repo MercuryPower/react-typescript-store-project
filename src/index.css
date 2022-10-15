@@ -5,3 +5,7 @@
 html{
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  display: flex;
+  justify-content: center;
+}

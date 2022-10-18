@@ -3,7 +3,6 @@ import { Footer } from "../components/Footer";
 import { Nav } from "../components/Nav";
 import { Product } from "../components/Product";
 import { headphones } from "../data/products";
-import {CartProduct} from '../components/CartProduct'
 import { IProduct } from "../models";
 import { ShoppingCart } from "../components/ShoppingCart";
 import { isTemplateExpression } from "typescript";

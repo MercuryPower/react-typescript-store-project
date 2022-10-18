@@ -3,14 +3,15 @@ import VKLogo from "../images/VK.svg"
 import TelegramLogo from "../images/Telegram.svg"
 import WhatsappLogo from "../images/Whatsapp.svg"
 import LangLogo from "../images/Lang.svg"
+import { Link } from "react-router-dom";
 
 export function Footer(){
     return(
-        <div className="mx-4 my-4 border-2 justify-between rounded-3xl items-center shadow-2xl flex h-40">
+        <div className="w-[1110px] mx-4 my-4 border-2 justify-between rounded-3xl items-center shadow-2xl flex h-40">
             <h1 className="flex px-4 py-2 font-bold pt-2 text-2xl mb-12 ml-4">QPICK</h1>
             <div className="ml-4">
             <p>Избранное</p>
-            <p>Корзина</p>
+            <Link to="/cart">Корзина</Link>
             <p>Контакты</p>
             </div>
             <div>
